@@ -1,0 +1,13 @@
+# Requires Python 3.10+ (minimum for both ccxt and python-telegram-bot)
+
+# Exchange connectivity: unified REST API, asyncio client, funding-rate endpoints
+ccxt~=4.5.87
+
+# Telegram bot (asyncio); job-queue extra enables scheduled reports and alerts
+python-telegram-bot[job-queue]~=22.8
+
+# Loads credentials from .env
+python-dotenv~=1.2
+
+# AI layer (uncomment when the LLM component is added)
+# anthropic~=1.13
